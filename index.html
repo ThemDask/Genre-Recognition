@@ -1,3 +1,59 @@
-<DOCTYPE: HTML>
-  
-  <div> HELLOOOO </div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Genre Recognition Software</title>
+  <link rel="stylesheet" href="styles.css" >
+</head>
+
+
+<body>
+    <div class="title-box">
+        <div class="title">
+            <h1>Genre Recognition Software</h1> 
+        </div>
+        <div class="subtitle">
+            <h3> a sound/audio processing project</h3> 
+        </div>
+    </div>
+
+    <div class="desc-box">
+        <div class="desc">
+            <p> 
+                &#183; Choose an mp3 file from your computer. <br>
+               &#183; Upload it using the button below. <br>
+               &#183; See the genre your music belongs to! <br>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="mp3-dropoff">
+        <label for="myfile"><br>Choose an mp3 file: <br></label>
+        <input type="file" id="myfile" name="myfile">
+    </div>
+    
+    <div class="genre-box">
+        <div class="genre">
+            <p> <br><br>Genre:</p>
+        </div>
+    </div>
+
+     <div class="genre-box">
+        <p><br><br>available genres:
+            blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock.
+        </p>
+     </div>
+
+     <div class="misc">
+        <p> *This website uses the 'GTZAN Dataset' and the 'AcousticBrainz Genre Dataset' for the purposes of genre recognition.
+            It is part of a university project.  </p>
+
+     </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
