@@ -29,13 +29,31 @@ body {
 .mp3-dropoff {
     position: static;
     width: 200px;
-    height: 50px;
-    color: rgb(150, 127, 255);
+    color: rgb(245, 169, 54);
+}
+
+.button-box {
+    position: relative;
+    margin-top: 20px;
+    left: 25px;
+    
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    font-size: x-large;
+    background: rgb(245, 169, 54);
 }
 
 .genre {
     font-size: xx-large;
-    color: rgb(150, 127, 255);
+    color: rgb(245, 169, 54);
+}
+
+.genre-desc {
+    font-size: x-large;
+    color: aquamarine;
 }
 
 .misc {
