@@ -32,7 +32,7 @@ countEachLabel(adsTest)
 N = 2^19;
 batchsize = 64;
 scTrain = [];
-useGPU = false; % Set to true to use the GPU
+useGPU = true; % Set to true to use the GPU
 
 while hasdata(adsTrain)
     sc = helperbatchscatfeatures(adsTrain,sn,N,batchsize,useGPU);
