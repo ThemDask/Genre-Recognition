@@ -21,29 +21,26 @@
     <div class="desc-box">
         <div class="desc">
             <p> 
-                &#183; Choose an mp3 file from your computer. <br>
-               &#183; Upload it using the button below. <br>
+                &#183; Choose an mp3 file from the following. (use music folder to see/listen to the content) <br>
                &#183; Press the Analyze button. <br>
-               &#183; See the genre your music belongs to! <br>
+               &#183; See the genre it belongs to! <br>
             </p>
         </div>
     </div>
-
-    <div class="genre-box">
-        <div class="mp3-dropoff">
-            <label for="myfile"><br>Choose an mp3 file: <br></label>
-            <input type="file" id="myfile" name="myfile">
-        </div>
     
-        <div class="button-box">
-            <button type="button" onclick="">Analyze!</button>
-        </div>
+    <div class="genre-box">
 
-        <div class="genre-box">
-            <div class="genre">
-                <p> Genre:</p>
-            </div>
+        <a href="/music/">Click to open music folder<br></a>
+         <label for="songinput">Choose a song:</label>
+            <input type="text" id="songinput" >
+            <a id="hint">hint: type the name of the song as it appears in the music folder. Example: demo.mp3</a>
+        <div class="button-box">
+            <button type="button" onclick="analyze()">Analyze!<br><br></button>
+        </div> 
+        <div class="genreid">
+            <p id="genre">Genre: </p>
         </div>
+        
     </div>
     
     <div class="genre-desc">
@@ -57,7 +54,6 @@
             It is part of a university project.  </p>
 
      </div>
-    <script src="script.js"></script>
-
+    <script  src="script.js"></script>
 </body>
 </html>
