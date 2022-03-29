@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Genre Recognition Software</title>
+  <link rel="stylesheet" href="styles.css" >
+</head>
+
+<body>
+    <div class="title-box">
+        <div class="title">
+            <h1>Genre Recognition Software</h1> 
+        </div>
+        <div class="subtitle">
+            <h3> a sound/audio processing project</h3> 
+        </div>
+    </div>
+
+    <div class="desc-box">
+        <div class="desc">
+            <p> 
+                &#183; Choose an mp3 file from the following. (use music folder to see/listen to the content) <br>
+               &#183; Press the Analyze button. <br>
+               &#183; See the genre it belongs to! <br>
+            </p>
+        </div>
+    </div>
+    
+    <div class="genre-box">
+
+        <a href="music/">Click to open music folder<br></a>
+         <label for="songinput">Choose a song:</label>
+            <input type="text" id="songinput" >
+            <a id="hint">hint: type the name of the song as it appears in the music folder. Example: demo.mp3</a>
+        <div class="button-box">
+            <button type="button" onclick="analyze()">Analyze!<br><br></button>
+        </div> 
+        <div class="genreid">
+            <p id="genre">Genre: </p>
+        </div>
+        
+    </div>
+    
+    <div class="genre-desc">
+        <p>available genres:
+            blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock.
+        </p>
+    </div>
+
+     <div class="misc">
+        <p> *This website uses the 'GTZAN Dataset' and the 'AcousticBrainz Genre Dataset' for the purposes of genre recognition.
+            It is part of a university project.  </p>
+
+     </div>
+    <script  src="script.js"></script>
+</body>
+</html>
