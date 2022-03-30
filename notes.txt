@@ -1,0 +1,6 @@
+---FLASK---
+from cmd:
+
+set FLASK_APP=file
+flask run
+
