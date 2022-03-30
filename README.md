@@ -1,3 +1,3 @@
 # Genre-Recognition
 
-https://themdask.github.io/Genre-Recognition/src
+https://themdask.github.io/Genre-Recognition/
