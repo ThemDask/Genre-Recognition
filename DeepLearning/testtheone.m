@@ -1,7 +1,7 @@
 
 model = loadLearnerForCoder('frem.mat');
 
-location = 'C:\Users\pcem\Desktop\karidis\matlab\data\testtheone';
+location = 'datapath';
 song= audioDatastore(location,'FileExtensions','.wav');
 Classes = {'blues','classical','country','disco','hiphop','jazz',...
     'metal','pop','reggae','rock'};
