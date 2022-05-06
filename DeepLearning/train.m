@@ -9,7 +9,7 @@ sn = waveletScattering('SignalLength',2^19,'SamplingFrequency',22050,...
     'InvarianceScale',0.5);
 
 %path to the genre folders
-datapath = 'datapath';
+datapath = 'C:\Users\pcem\Desktop\karidis\matlab\data';
 location = fullfile(datapath,'genres');
 
 %Audio Datastore
